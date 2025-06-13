@@ -1,0 +1,13 @@
+packet br.com.biblioteca.classe;
+public abstract classe livro{
+    private string Titulo;
+    private string Autor;
+    private int AnoPublicação;
+    private booleano Disponivel;
+}
+livro (string Titulo, string Autor, int AnoPublicação){
+    this Titulo=Titulo;
+    this Autor=Autor;
+    this AnoPublicação=AnoPublicação;
+    this Disponivel=true
+}
